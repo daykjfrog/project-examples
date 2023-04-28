@@ -24,10 +24,6 @@ allprojects {
 
   repositories {
     mavenCentral()
-    	maven {
-		allowInsecureProtocol true
-	}
-  }
 }
 
 // Setting this property to true will make the artifactoryPublish task
